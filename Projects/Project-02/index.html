@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=viewport-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div id="content">
+			<div id="container-1">
+				<h2>Section Title Goes Here</h2>
+				<p>
+					Motivated by Danish authorities’ revisions to his birth name, Vo Trung Ky Danh, Danh Vo initiated (2003) the project Vo Rosasco Rasmussen, in which he married and divorced close friends, adding their names to his own. Such documents as bank cards and passports, as well as each marriage license and divorce certificate, charted the transformation of his name as an evolving souvenir of his sense of self. Danh Vo’s work addressed community identity as well, as seen in We the People (2010–13), for which he commissioned a full-scale copper replica, in fragments, of Frédéric-Auguste Bartholdi’s iconic Liberty Enlightening the World (informally the Statue of Liberty) that he simultaneously installed at sites spanning the globe. Rather than reassemble the replica for future exhibits, Danh Vo sought to place pieces of it in disparate collections. His exhibitions in 2013 included a retrospective at the Musée d’Art Moderne de la Ville de Paris and Mother Tongue at the Marian Goodman Gallery in New York City, which featured personal effects of former secretary of defense Robert McNamara acquired through auction. Also, as part of the Hugo Boss Prize awarded to Dahn Vo in 2012, the Solomon R. Guggenheim Museum hosted IMUUR2 (“I am you, you are too”), an installation of 4,000 objects collected or made by the artist Martin Wong, who died of AIDS in 1999. Engagement with such artifacts allowed Danh Vo to interweave his story with those of others, complicating perceptions of individual experience. To create his installation for The Encyclopedic Palace, the select international exhibition at the 55th Venice Biennale (2013), Danh Vo imported the stone and wood structural elements of a 200-year-old Roman Catholic church from Vietnam and reassembled them in Venice’s Arsenale. In 2018 a major survey of Danh Vo’s work was organized by the Guggenheim Museum (“Danh Vo: Take My Breath Away”). Two years later he explored the rise and fall of empires and religion in the installation chicxulub, White Cube gallery, London. The collection of ready-made objects included Danh Vo’s popular gold leaf on cardboard pieces, notably shipping boxes with Coca-Cola logos coated in gold leaf. Frequently used by artists of the Middle Ages and Renaissance for halos and other accents in religious art, the gold leaf imbued the throwaway containers and the brand with an almost sacred quality. 
+				</p>
+				<figure>
+					<img src="image/DVO.jpg">
+				</figure>
+
+				<figure>
+					<img src="image/DVO-2.jpg">
+				</figure>
+			</div>
+
+			<div id="container-2">
+				<h2>Section Title Goes Here</h2>
+				<p>
+					Motivated by Danish authorities’ revisions to his birth name, Vo Trung Ky Danh, Danh Vo initiated (2003) the project Vo Rosasco Rasmussen, in which he married and divorced close friends, adding their names to his own. Such documents as bank cards and passports, as well as each marriage license and divorce certificate, charted the transformation of his name as an evolving souvenir of his sense of self. Danh Vo’s work addressed community identity as well, as seen in We the People (2010–13), for which he commissioned a full-scale copper replica, in fragments, of Frédéric-Auguste Bartholdi’s iconic Liberty Enlightening the World (informally the Statue of Liberty) that he simultaneously installed at sites spanning the globe. Rather than reassemble the replica for future exhibits, Danh Vo sought to place pieces of it in disparate collections. His exhibitions in 2013 included a retrospective at the Musée d’Art Moderne de la Ville de Paris and Mother Tongue at the Marian Goodman Gallery in New York City, which featured personal effects of former secretary of defense Robert McNamara acquired through auction. Also, as part of the Hugo Boss Prize awarded to Dahn Vo in 2012, the Solomon R. Guggenheim Museum hosted IMUUR2 (“I am you, you are too”), an installation of 4,000 objects collected or made by the artist Martin Wong, who died of AIDS in 1999. Engagement with such artifacts allowed Danh Vo to interweave his story with those of others, complicating perceptions of individual experience. To create his installation for The Encyclopedic Palace, the select international exhibition at the 55th Venice Biennale (2013), Danh Vo imported the stone and wood structural elements of a 200-year-old Roman Catholic church from Vietnam and reassembled them in Venice’s Arsenale. In 2018 a major survey of Danh Vo’s work was organized by the Guggenheim Museum (“Danh Vo: Take My Breath Away”). Two years later he explored the rise and fall of empires and religion in the installation chicxulub, White Cube gallery, London. The collection of ready-made objects included Danh Vo’s popular gold leaf on cardboard pieces, notably shipping boxes with Coca-Cola logos coated in gold leaf. Frequently used by artists of the Middle Ages and Renaissance for halos and other accents in religious art, the gold leaf imbued the throwaway containers and the brand with an almost sacred quality. 
+				</p>
+				<figure>
+					<img src="image/DVO.jpg">
+				</figure>
+
+				<figure>
+					<img src="image/DVO-2.jpg">
+				</figure>
+			</div>
+		</div>
+
+
+	</body>
+
+	<script src="https://unpkg.com/bindery@2.3.0/"></script>
+
+	<script>
+	  Bindery.makeBook({ 
+	  	content: '#content' 
+	  	url: '/index.html',
+	  	rules: [
+     	 Bindery.PageBreak({ selector: 'h2', position: 'before' }),
+     	 Bindery.FullBleedSpread({ selector: 'img' }),
+    ],
+	  });
+
+	</script>
+</html>
