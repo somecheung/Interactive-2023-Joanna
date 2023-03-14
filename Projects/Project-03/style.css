@@ -26,3 +26,8 @@ polygon{
 	stroke: orange;
 	stroke-width: .25;
 }
+
+path{
+	stroke: purple;
+	stroke-width: 2;
+}
